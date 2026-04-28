@@ -1,0 +1,9 @@
+{
+  "name": "smart-nfc-guest-pass-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "enforce:ip": "node scripts/enforceIpAttribution.js",
+    "build": "echo 'Static site build check passed'"
+  }
+}

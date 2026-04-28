@@ -1,3 +1,11 @@
+/**
+ * Developed by SaaSolutions SL
+ * Intellectual Property owned by Paradox FZCO
+ * © 2026 Paradox FZCO. All rights reserved.
+ */
+
+import { IP_DEVELOPER, IP_OWNER, COPYRIGHT_YEAR } from "./src/constants/ipAttribution.js";
+
 const words = ["AI Automation", "Smart SaaS", "Growth Systems", "Digital Scale"];
 const typedText = document.getElementById("typedText");
 const menuToggle = document.getElementById("menuToggle");
@@ -10,6 +18,7 @@ const demoPulse = document.getElementById("demoPulse");
 const pulseResult = document.getElementById("pulseResult");
 const contactForm = document.getElementById("contactForm");
 const feedback = document.getElementById("formFeedback");
+const ipFooter = document.getElementById("ipFooter");
 
 let wordIndex = 0;
 
@@ -84,4 +93,10 @@ contactForm.addEventListener("submit", (event) => {
   contactForm.reset();
 });
 
-document.getElementById("year").textContent = new Date().getFullYear();
+const isDevelopmentHost = ["localhost", "127.0.0.1", "0.0.0.0"].includes(window.location.hostname);
+const isFileProtocol = window.location.protocol === "file:";
+
+if (!isDevelopmentHost && !isFileProtocol && ipFooter) {
+  ipFooter.textContent = `Developed by ${IP_DEVELOPER} | © ${COPYRIGHT_YEAR} ${IP_OWNER}. All rights reserved.`;
+  ipFooter.hidden = false;
+}
