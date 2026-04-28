@@ -1,5 +1,12 @@
 # SaaSolutions Compliance OS (MVP)
 
+This repository is now aligned to the product name **SaaSolutions Compliance OS**.
+
+## Canonical naming
+- Product name: `SaaSolutions Compliance OS`
+- Suggested git repository name: `saasolutions-compliance-os`
+- NPM package name: `saasolutions-compliance-os`
+
 ## Stack
 - Next.js App Router + TypeScript + TailwindCSS
 - Supabase Postgres/Auth with RLS
