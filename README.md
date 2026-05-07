@@ -1,11 +1,11 @@
-# SaaSolutions Compliance OS (MVP)
+# df_mobile_app (MVP)
 
 Production-ready MVP repository for a GDPR-focused compliance platform for SMEs.
 
 ## Canonical repository identity
-- Product: `SaaSolutions Compliance OS`
-- Repository: `saasolutions-compliance-os`
-- Package: `saasolutions-compliance-os`
+- Product: `df_mobile_app`
+- Repository: `df_mobile_app`
+- Package: `df_mobile_app`
 
 ## Tech stack
 - Next.js (App Router) + TypeScript + TailwindCSS

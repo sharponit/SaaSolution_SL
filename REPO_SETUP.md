@@ -1,4 +1,4 @@
-# Create a New Repository (SaaSolutions Compliance OS)
+# Create a New Repository (df_mobile_app)
 
 Use these commands from the project root to publish this codebase to a fresh remote repository.
 
@@ -11,12 +11,12 @@ git branch -M main
 ## 2) Commit files
 ```bash
 git add .
-git commit -m "Initial commit: SaaSolutions Compliance OS MVP"
+git commit -m "Initial commit: df_mobile_app MVP"
 ```
 
 ## 3) Create a new remote repository
 Create a repository named:
-`saasolutions-compliance-os`
+`df_mobile_app`
 
 Then connect and push:
 ```bash
