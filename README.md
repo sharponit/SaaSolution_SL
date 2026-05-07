@@ -36,3 +36,13 @@ See `REPO_SETUP.md`.
 - Frontend: Vercel
 - Backend: Supabase hosted project
 - Billing: Stripe products/prices + webhook endpoint `/api/stripe/webhook`
+
+## Engineering foundation
+- Architecture guardrails: `docs/ARCHITECTURE_FOUNDATION.md`
+- Use this as the default decision baseline for all new features and refactors.
+
+## Licensing and IP
+- License model: commercial/proprietary.
+- Software developed by **SaaSolution SL**.
+- Intellectual property owned by **Paradox FZCO (Dubai)**.
+- Policy reference: `docs/LICENSING_AND_IP.md`.
